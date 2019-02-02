@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Size:</strong>
+  <%= "#{@bike.size} #{@bike.size_unit}" %>
+</p>
+
+<p>
+  <strong>Color:</strong>
+  <%= @bike.color %>
+</p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @bike.bike_type %>
+</p>
+
+<p>
+  <strong>Condition:</strong>
+  <%= @bike.condition %>
+</p>
+
+<p>
+  <strong>Brand:</strong>
+  <%= @bike.brand %>
+</p>
+
+<p>
+  <strong>Model:</strong>
+  <%= @bike.model %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @bike.year %>
+</p>
+
+<p>
+  <strong>Miles:</strong>
+  <%= @bike.miles %>
+</p>
+
+<%= link_to 'Edit', edit_bike_path(@bike) %> |
+<%= link_to 'Back', bikes_path %>
