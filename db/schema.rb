@@ -10,18 +10,31 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_02_02_151238) do
+ActiveRecord::Schema.define(version: 2019_02_02_153502) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "posts", force: :cascade do |t|
-    t.string "email"
-    t.string "postable_type"
-    t.bigint "postable_id"
+  create_table "bikes", force: :cascade do |t|
+    t.integer "size"
+    t.string "size_unit"
+    t.string "color"
+    t.string "bike_type"
+    t.integer "condition"
+    t.string "brand"
+    t.string "model"
+    t.integer "year"
+    t.integer "miles"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["postable_type", "postable_id"], name: "index_posts_on_postable_type_and_postable_id"
+  end
+
+  create_table "posts", force: :cascade do |t|
+    t.string "email", null: false
+    t.string "postable_type", null: false
+    t.integer "postable_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end

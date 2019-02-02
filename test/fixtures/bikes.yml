@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  size: 62
+  size_unit: CM
+  color: grey
+  bike_type: gravel
+  condition: 4
+  brand: Gunner
+  model: Crosshairs
+  year: 2017
+  miles: 6000
+
+two:
+  size: 52
+  size_unit: CM
+  color: blue
+  bike_type: touring
+  condition: 3
+  brand: All City
+  model: Space Horse
+  year: 2017
+  miles: nil

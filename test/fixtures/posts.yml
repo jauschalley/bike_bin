@@ -4,8 +4,3 @@ one:
   email: hello@email.com
   postable_id: 1
   postable_type: Bike
-
-two:
-  email: friend@email.com
-  postable: 2
-  postable_type: Bike
