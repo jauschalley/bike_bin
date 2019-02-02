@@ -22,7 +22,7 @@ class BikesTest < ApplicationSystemTestCase
     fill_in "Model", with: @bike.model
     fill_in "Size", with: @bike.size
     fill_in "Size unit", with: @bike.size_unit
-    fill_in "Bike type", with: @bike.bike_type
+    fill_in "Discipline", with: @bike.discipline
     fill_in "Year", with: @bike.year
     fill_in "Email", with: @post.email
     click_on "Create Bike"
@@ -42,7 +42,7 @@ class BikesTest < ApplicationSystemTestCase
     fill_in "Model", with: @bike.model
     fill_in "Size", with: @bike.size
     fill_in "Size unit", with: @bike.size_unit
-    fill_in "Bike type", with: @bike.bike_type
+    fill_in "Discipline", with: @bike.discipline
     fill_in "Year", with: @bike.year
     click_on "Update Bike"
 

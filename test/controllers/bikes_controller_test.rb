@@ -19,7 +19,7 @@ class BikesControllerTest < ActionDispatch::IntegrationTest
     assert_difference('Bike.count') do
       post bikes_url, params: { bike: { brand: @bike.brand, color: @bike.color, 
       condition: @bike.condition, miles: @bike.miles, model: @bike.model, 
-      size: @bike.size, bike_type: @bike.bike_type, year: @bike.year } }
+      size: @bike.size, discipline: @bike.discipline, year: @bike.year } }
     end
 
     assert_redirected_to bike_url(Bike.last)
@@ -38,7 +38,7 @@ class BikesControllerTest < ActionDispatch::IntegrationTest
   test "should update bike" do
     patch bike_url(@bike), params: { bike: { brand: @bike.brand, color: @bike.color, 
     condition: @bike.condition, miles: @bike.miles, model: @bike.model, 
-    size: @bike.size, bike_type: @bike.bike_type, year: @bike.year } }
+    size: @bike.size, discipline: @bike.discipline, year: @bike.year } }
     assert_redirected_to bike_url(@bike)
   end
 

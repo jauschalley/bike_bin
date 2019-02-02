@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 2019_02_02_153502) do
     t.integer "size"
     t.string "size_unit"
     t.string "color"
-    t.string "bike_type"
+    t.string "discipline"
     t.integer "condition"
     t.string "brand"
     t.string "model"
