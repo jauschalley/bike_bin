@@ -4,7 +4,7 @@ one:
   size: 62
   size_unit: CM
   color: grey
-  bike_type: gravel
+  discipline: gravel
   condition: 4
   brand: Gunner
   model: Crosshairs
@@ -15,7 +15,7 @@ two:
   size: 52
   size_unit: CM
   color: blue
-  bike_type: touring
+  discipline: touring
   condition: 3
   brand: All City
   model: Space Horse
