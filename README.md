@@ -23,3 +23,6 @@ Things you may want to cover:
 
 * ...
 # bike_bin
+
+
+Mkaing small changes to test PR rules
