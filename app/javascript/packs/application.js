@@ -9,7 +9,9 @@
 
 import ReactOnRails from 'react-on-rails';
 import BikeBinApp from '../components/BikeBinApp';
+import BikeBinHome from '../components/BikeBinHome'
 
 ReactOnRails.register({
-  BikeBinApp
+  BikeBinApp,
+  BikeBinHome
 });

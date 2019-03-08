@@ -1,4 +1,5 @@
 import React from 'react';
+import BikeBinHome from './BikeBinHome'
 
 export default class BikeBinApp extends React.Component {
   // constructor(props, _railsContext) {
@@ -7,14 +8,6 @@ export default class BikeBinApp extends React.Component {
   render() {
     return (
       <BikeBinHome />
-    );
-  }
-}
-
-class BikeBinHome extends React.Component {
-  render() {
-    return (
-      <h1>Welcome to the Bike Bin homepage.</h1>
     );
   }
 }
