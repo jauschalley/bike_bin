@@ -8,8 +8,8 @@
 // layout file, like app/views/layouts/application.html.erb
 
 import ReactOnRails from 'react-on-rails';
-import Search from '../components/Search';
+import BikeBinApp from '../components/BikeBinApp';
 
 ReactOnRails.register({
-  Search
+  BikeBinApp
 });
