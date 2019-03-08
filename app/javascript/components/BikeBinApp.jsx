@@ -14,7 +14,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 const BikeBinApp = () => {
   return (
     <Router>
-      <Route path="/" component={BikeBinHome}>
+      <Route path="/bikes" component={BikeBinHome}>
       </Route>
     </Router>
   );
