@@ -4,7 +4,10 @@ import BikeBinHome from './BikeBinHome'
 export default class BikeBinApp extends React.Component {
   render() {
     return (
-      <BikeBinHome />
+      <div>
+        <h1>BikeBinApp component</h1>
+        <BikeBinHome />
+      </div>
     );
   }
 }
